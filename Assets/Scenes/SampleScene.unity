@@ -414,15 +414,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42233b5af26b045448cd0484b70e6b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drawMode: 1
+  seed: 0
+  autoUpdate: 1
   mapWidth: 100
   mapHeight: 100
-  noiseScale: 21.77
+  noiseScale: 25.54
   octaves: 4
-  persistance: 0.5
-  lacunarity: 1.74
-  seed: 0
-  offset: {x: 1.84, y: 0}
-  autoUpdate: 1
+  persistance: 0.393
+  lacunarity: 1.4
+  offset: {x: 0, y: 0}
+  regions:
+  - name: water deep
+    height: 0.3
+    terrainColor: {r: 0.19344072, g: 0.41622466, b: 0.6509434, a: 0}
+  - name: water
+    height: 0.4
+    terrainColor: {r: 0.24705884, g: 0.4666667, b: 0.69803923, a: 0}
+  - name: sand
+    height: 0.45
+    terrainColor: {r: 0.7830189, g: 0.78091544, b: 0.48384658, a: 0}
+  - name: grass
+    height: 0.55
+    terrainColor: {r: 0.30279967, g: 0.6037736, b: 0.19081523, a: 0}
+  - name: grass 2
+    height: 0.6
+    terrainColor: {r: 0.24921383, g: 0.5, b: 0.15801886, a: 0}
+  - name: rock
+    height: 0.7
+    terrainColor: {r: 0.3301887, g: 0.27428055, b: 0.21649164, a: 0}
+  - name: rock 2
+    height: 0.9
+    terrainColor: {r: 0.2735849, g: 0.23682806, b: 0.1974457, a: 0}
+  - name: snow
+    height: 1
+    terrainColor: {r: 1, g: 1, b: 1, a: 0}
 --- !u!4 &2086949056
 Transform:
   m_ObjectHideFlags: 0
