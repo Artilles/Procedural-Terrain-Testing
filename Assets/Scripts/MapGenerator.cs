@@ -14,7 +14,8 @@ public class MapGenerator : MonoBehaviour
     /// Unity imposes a max of 255^2 (65025) vertices in a mesh.
     /// We use 241 to stay below that size, and because 241-1 is
     /// divisible by all square numbers from 2 - 12.
-    const int mapChunkSize = 241;
+    public const int mapChunkSize = 241;
+
     [Range(0, 6)]
     public int levelOfDetail = 1;
     public int seed;
